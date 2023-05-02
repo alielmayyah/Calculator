@@ -1,0 +1,86 @@
+/* Body */
+body {
+    background-color: #0c1442;
+    color: #f5f5f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("wp4022777-3365267692.jpg");
+    background-position: center;
+    background-size: contain;
+  }
+  
+  /* Container */
+  .container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 35px;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: #1c2331;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin-top: 150px;
+  }
+  
+  /* Calculator title */
+  h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  
+  
+  /* Input fields */
+  input[type="text"] {
+    background-color: #ffffff;
+    color: #8b8b8b;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+  }
+
+input[type="text"]:focus {
+    background-color:#1c2331;
+    color:  #ffffff; 
+  }
+  
+  
+  /* Buttons */
+  .btn-primary {
+    background-color: #2c3e50;
+
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #4a89e7;
+    color: #1c2331;
+}
+  
+  .btn-secondary {
+    background-color: #5477da;
+    color: #f5f5f5;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+ 
+  
+  /* Result field */
+  #result {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: right;
+    text-align: center;
+  }
+  
+  

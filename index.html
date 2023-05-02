@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simple Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1 class="text-center">Simple Calculator</h1>
+		<div class="row justify-content-center">
+			<div class="col-md-4">
+				<div class="form-group">
+                    <label id="num1"> Enter First Number:</label>
+					<input type="text" class="form-control" id="firstNumber" placeholder="Enter first number">
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="form-group">
+                    <label id="num2" >Enter Second number:</label>
+					<input type="text" class="form-control" id="secondNumber" placeholder="Enter second number">
+				</div>
+			</div>
+		</div>
+		<div class="row justify-content-center">
+			<div class="col-md-4">
+				<button type="button" id="button1" class="btn btn-primary btn-block" onclick="add()">Add</button>
+			</div>
+			<div class="col-md-4">
+				<button type="button"id="button2" class="btn btn-primary btn-block" onclick="subtract()">Subtract</button>
+			</div>
+		</div>
+		<div class="row justify-content-center">
+			<div class="col-md-4">
+				<button type="button" class="btn btn-secondary btn-block" onclick="clearForm()">Clear</button>
+			</div>
+		</div>
+		<div class="row justify-content-center">
+			<div class="col-md-4">
+				<div class="form-group">
+                    <input type="text" class="form-control" id="result" style="display:none;" placeholder="Result" readonly>
+                </div>
+			</div>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
